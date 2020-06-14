@@ -1,0 +1,31 @@
+uuid: 6595ce81-838b-4d24-b585-ee907ad00b86
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fb6418d1-9c97-4ddd-aa65-2c006db767fd'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+id: leftsidebartop
+theme: drupal8_zymphonies_theme
+region: topwidget_first
+weight: -7
+provider: null
+plugin: 'block_content:fb6418d1-9c97-4ddd-aa65-2c006db767fd'
+settings:
+  id: 'block_content:fb6418d1-9c97-4ddd-aa65-2c006db767fd'
+  label: 'Left Side Bar Top'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

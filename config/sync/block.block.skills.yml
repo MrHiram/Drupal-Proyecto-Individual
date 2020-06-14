@@ -1,0 +1,33 @@
+uuid: 9312c278-34ea-40cd-9c87-6268f469d49f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2be0f9a4-e9d2-49c2-8cf8-956505547d82'
+  module:
+    - block_content
+    - node
+  theme:
+    - drupal8_zymphonies_theme
+id: skills
+theme: drupal8_zymphonies_theme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:2be0f9a4-e9d2-49c2-8cf8-956505547d82'
+settings:
+  id: 'block_content:2be0f9a4-e9d2-49c2-8cf8-956505547d82'
+  label: Skills
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      skill: skill
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

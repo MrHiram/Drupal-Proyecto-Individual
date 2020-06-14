@@ -1,0 +1,28 @@
+uuid: a949fc18-e3b9-44bc-a461-e45a48698966
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.skill.field_image_skills
+    - image.style.medium
+    - node.type.skill
+  module:
+    - image
+    - user
+id: node.skill.teaser
+targetEntityType: node
+bundle: skill
+mode: teaser
+content:
+  field_image_skills:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  links: true

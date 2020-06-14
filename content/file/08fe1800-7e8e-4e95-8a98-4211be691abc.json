@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-06\/proyecto-gusticos-lomel.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "08fe1800-7e8e-4e95-8a98-4211be691abc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "952a7dbb-0a71-4168-8ad0-dc87dd0e0713"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "proyecto-gusticos-lomel.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-06\/proyecto-gusticos-lomel.png",
+            "url": "\/sites\/default\/files\/2020-06\/proyecto-gusticos-lomel.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 148238
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T21:46:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T21:46:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

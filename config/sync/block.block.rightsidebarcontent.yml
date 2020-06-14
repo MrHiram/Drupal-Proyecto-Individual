@@ -1,0 +1,31 @@
+uuid: 56d6ff7b-13f3-4d09-803e-00caabb5962f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:679f5ccc-fdd5-4ca7-b298-9cd2311b7d89'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+id: rightsidebarcontent
+theme: drupal8_zymphonies_theme
+region: topwidget_third
+weight: 0
+provider: null
+plugin: 'block_content:679f5ccc-fdd5-4ca7-b298-9cd2311b7d89'
+settings:
+  id: 'block_content:679f5ccc-fdd5-4ca7-b298-9cd2311b7d89'
+  label: 'Right Sidebar Content'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

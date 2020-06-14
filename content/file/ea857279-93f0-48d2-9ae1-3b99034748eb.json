@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-06\/1daac8fb5fac348306a8ea3e4fe2bddb-logo-de-le--n-le--n-by-vexels.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ea857279-93f0-48d2-9ae1-3b99034748eb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "952a7dbb-0a71-4168-8ad0-dc87dd0e0713"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "1daac8fb5fac348306a8ea3e4fe2bddb-logo-de-le--n-le--n-by-vexels.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-06\/1daac8fb5fac348306a8ea3e4fe2bddb-logo-de-le--n-le--n-by-vexels.png",
+            "url": "\/sites\/default\/files\/2020-06\/1daac8fb5fac348306a8ea3e4fe2bddb-logo-de-le--n-le--n-by-vexels.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 6110
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T20:54:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T20:54:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

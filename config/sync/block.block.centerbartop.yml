@@ -1,0 +1,31 @@
+uuid: d7405ca6-abae-4bff-9ac7-f0552515f7f5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1261902d-97ea-4cd9-b3d4-4770f20d883d'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+id: centerbartop
+theme: drupal8_zymphonies_theme
+region: topwidget_second
+weight: -8
+provider: null
+plugin: 'block_content:1261902d-97ea-4cd9-b3d4-4770f20d883d'
+settings:
+  id: 'block_content:1261902d-97ea-4cd9-b3d4-4770f20d883d'
+  label: 'Center Bar Top'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
